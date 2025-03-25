@@ -10,10 +10,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MybatisPlusConfig {
     @Bean
-    public MybatisPlusInterceptor mybatisPlusInterceptor(){
-        return new MybatisPlusInterceptor();
+    public MybatisPlusInterceptor mybatisPlusInterceptor() {
+        MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
+        mybatisPlusInterceptor.addInnerInterceptor(new MybatisPlusAllSqlLog());
+        return mybatisPlusInterceptor;
     }
-
     @Bean
     public ConfigurationCustomizer configurationCustomizer(){
         return configuration -> {
@@ -21,6 +22,4 @@ public class MybatisPlusConfig {
             configuration.setMapUnderscoreToCamelCase(false);
         };
     }
-
-
 }
