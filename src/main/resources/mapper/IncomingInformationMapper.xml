@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yikousu.mapper.IncomingInformationMapper"><!--  写对应mapper的路径-->
+
+    <resultMap id="residuleByIdMap" type="com.yikousu.pojo.Drug">
+        <id property="drugName" column="drugName"/>
+        <result property="quantity" column="剩余量"/>
+    </resultMap>
+    <select id="residuleById" resultMap="residuleByIdMap">
+        SELECT d.drugName,
+               COALESCE((SELECT SUM(i.incomingQuantity) FROM incominginformation i WHERE i.drugId = #{id}), 0) -
+               COALESCE((SELECT SUM(o.outgoingQuantity) FROM outgoinginformation o WHERE o.drugId = #{id}), 0) AS "剩余量"
+        FROM druginformation d
+        WHERE d.drugId = #{id};
+    </select>
+</mapper>
