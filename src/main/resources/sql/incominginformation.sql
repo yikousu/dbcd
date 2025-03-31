@@ -1,9 +1,0 @@
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (1, 3, '2019-04-01', 400, '仓库2');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (2, 3, '2019-03-28', 160, '仓库1');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (3, 4, '2006-05-03', 200, '仓库3');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (4, 8, '2003-11-19', 822, '仓库3');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (5, 5, '2017-07-31', 410, '仓库2');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (6, 5, '2002-11-18', 360, '仓库1');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (7, 5, '2009-12-15', 200, '仓库1');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (8, 2, '2001-03-23', 230, '仓库3');
-insert into druginventorymanagement.incominginformation (incomingId, drugId, incomingDate, incomingQuantity, storageLocation) values (1862934530, 21, '2023-12-05', 211, 'ee');

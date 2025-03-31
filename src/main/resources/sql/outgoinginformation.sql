@@ -1,9 +1,0 @@
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (1, 3, '2022-03-08', 90);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (2, 4, '2023-11-13', 100);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (3, 2, '2013-04-16', 130);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (4, 10, '2013-07-11', 120);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (5, 2, '2005-02-05', 50);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (6, 8, '2008-04-01', 110);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (7, 8, '2010-09-25', 100);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (8, 3, '2020-10-30', 130);
-insert into druginventorymanagement.outgoinginformation (outgoingId, drugId, outgoingDate, outgoingQuantity) values (9, 1111, '2023-11-21', 100);
