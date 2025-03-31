@@ -1,0 +1,11 @@
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (2, '姚晶莹', 'F', 52, '本科学位', '软件工程师');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (3, '姚榕润', 'F', 19, '高中毕业', '项目经理');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (4, '袁欣慧', 'F', 35, '博士学位', '客户服务代表');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (5, '龚欣宜', 'F', 63, '中专毕业', '数据分析师');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (6, '常浩晨', 'M', 41, '硕士学位', '市场营销专员');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (7, '雷新建', 'F', 30, '高中毕业', '人力资源助理');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (8, '吴东东', 'F', 56, '本科学位', '财务分析师');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (9, '傅秀兰', 'M', 24, '博士学位', '行政助理');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (10, '金忠林', 'M', 48, '中专毕业', '网络运维工程师');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (11, 'Ono Daichi', 'M', 580, '8mZJ8dVvo7', 'qJ2bDhirhx');
+insert into druginventorymanagement.employeeinformation (employeeId, name, gender, age, education, position) values (12, 'Yung Ching Wan', 'M', 374, 'Wor8ou9Cfi', 'RpxDGwunUu');
